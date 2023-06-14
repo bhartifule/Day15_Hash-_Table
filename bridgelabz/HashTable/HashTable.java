@@ -2,7 +2,8 @@ package com.bridgelabz.HashTable;
 
 import java.util.Hashtable;
 
-public class HashTable {
+public class HashTable 
+{
 
 	public static Hashtable<String, Integer> getWordFrequency(String sentence) {
         Hashtable<String, Integer> wordFrequency = new Hashtable<String, Integer>();
